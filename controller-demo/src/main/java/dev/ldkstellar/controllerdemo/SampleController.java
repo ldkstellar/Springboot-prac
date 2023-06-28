@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller //요청 경로를 설정하기 위해 Controller Annotation을 사용한다
 public class SampleController {
+
     private static  final Logger logger = LoggerFactory.getLogger(SampleController.class);
     @RequestMapping("/profile")//RequestMapping을 이용해 경로에 따라 실행될 함수를 지정 할 수 있다.
     public String profile(){
@@ -33,5 +34,6 @@ public class SampleController {
     public @ResponseBody SamplePayload getProfile(){// HTML 외에 데이터 전송을 위해 Body와 Media Type을 설정할 수 있다.
         return  new SamplePayload("ldkstellar",26,"Developer");
     }
+
 
 }
