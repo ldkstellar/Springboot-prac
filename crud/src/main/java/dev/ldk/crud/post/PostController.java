@@ -9,7 +9,7 @@ import java.util.List;
 
 @Controller//
 @ResponseBody //클래스안에 있는 메소드의 형태가 ResponseBody 형태를 가진다.
-@RequestMapping("post")
+//@RequestMapping("post")
 public class PostController {
    private  static  final Logger logger = LoggerFactory.getLogger(PostController.class);
    private  final List<PostDto> postlist;// interface
