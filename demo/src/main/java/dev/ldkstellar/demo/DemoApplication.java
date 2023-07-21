@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		/*
+
 		TestInterface testInterface = new TestImplementation();
-		TestComponent testComponent = new TestComponent(testInterface);*/
+		TestComponent testComponent = new TestComponent(testInterface);
 
 
 		SpringApplication.run(DemoApplication.class, args);
